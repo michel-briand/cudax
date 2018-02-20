@@ -1,0 +1,13 @@
+CUDA + MPI
+
+Test program taken from NVIDIA samples.
+
+Build with Waf : https://github.com/waf-project/waf.git
+(version 2.0.6 included here for convenience)
+
+$ ./waf distclean configure build
+
+Requirements:
+- CUDA
+- OpenMPI
+

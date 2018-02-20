@@ -1,0 +1,8 @@
+*~
+*.pyc
+build
+.waf-*
+.lock-waf*
+.Rhistory
+.RData
+.Rproj.user
