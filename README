@@ -2,6 +2,16 @@ CUDA + MPI
 
 Test program taken from NVIDIA samples.
 
+Simple Makefile.
+
+Tests:
+./cpuAdd
+./cudaAdd
+./simpleMPI
+mpiexec -n 9 simpleMPI
+
+--
+
 Build with Waf : https://github.com/waf-project/waf.git
 (version 2.0.6 included here for convenience)
 
@@ -11,3 +21,6 @@ Requirements:
 - CUDA
 - OpenMPI
 
+Sample 1: square root of each element of a vector ; 1 thread ; 1 block
+
+TODO: Sample 2: parallelized calculus of interference of light (Young)

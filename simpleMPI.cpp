@@ -89,6 +89,7 @@ int main(int argc, char *argv[])
     }
 
     // On each node, run computation on GPU
+    cout << "compute on node " << commRank << endl;
     computeGPU(dataNode, blockSize, gridSize);
 
     // Reduction to the root node, computing the sum of output elements

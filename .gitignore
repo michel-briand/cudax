@@ -6,3 +6,9 @@ build
 .Rhistory
 .RData
 .Rproj.user
+cpuAdd
+cudaAdd
+*.o
+simpleMPI
+cscope.files
+cscope.out
